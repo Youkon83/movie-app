@@ -97,3 +97,13 @@ main{
 .movie:hover .overview{
     transform: translateY(0);
 }
+
+@media(max-width: 800px){
+    .movie{
+        width: 150px;
+    }
+    .movie-info{
+        justify-content: center;
+        font-size: 8px;
+    }
+}
